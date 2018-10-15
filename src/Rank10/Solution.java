@@ -10,10 +10,10 @@ public class Solution {
     /*
      * Complete the simpleArraySum function below.
      */
-    static int simpleArraySum(int[] ar) {
+    static int simpleArraySum(int[] integerArray) {
         int sum = 0;
 
-        for (int val: ar) {
+        for (int val: integerArray) {
             sum += val;
         }
 
